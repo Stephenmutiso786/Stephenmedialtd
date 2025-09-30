@@ -1,0 +1,1 @@
+import '../styles/globals.css';\nimport '../styles/neon-theme.css';\n\nexport default function App({ Component, pageProps }) {\n  return <Component {...pageProps} />;\n}

@@ -1,0 +1,1 @@
+export default function NeonButton({ children, ...props }) {\n  return (\n    <button className="neon-btn" {...props}>{children}</button>\n  );\n}

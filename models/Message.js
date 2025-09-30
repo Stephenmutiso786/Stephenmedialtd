@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';\n\nconst MessageSchema = new mongoose.Schema({\n  text: String,\n  sender: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },\n  createdAt: { type: Date, default: Date.now }\n});\n\nexport default mongoose.models.Message || mongoose.model('Message', MessageSchema);

@@ -1,0 +1,1 @@
+import Header from '../components/Header';\n\nexport default function Messages() {\n  // Add messaging/chat logic here\n  return (\n    <>\n      <Header />\n      <main style={{ padding: 40 }}>\n        <h2 className="neon">Messages</h2>\n        <p>Start chatting with other users!</p>\n      </main>\n    <>\n  );\n}

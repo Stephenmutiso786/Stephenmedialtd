@@ -1,0 +1,1 @@
+import Header from '../components/Header';\n\nexport default function Dashboard() {\n  return (\n    <>\n      <Header />\n      <main style={{ padding: 40 }}>\n        <h1 className="neon">Welcome to Tech Hub</h1>\n        <p>Your neon-powered tech portal dashboard.</p>\n      </main>\n    <>\n  );\n}
