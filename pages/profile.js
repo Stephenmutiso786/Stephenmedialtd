@@ -1,0 +1,1 @@
+import Header from '../components/Header';\n\nexport default function Profile() {\n  // Add user profile display/edit logic here\n  return (\n    <>\n      <Header />\n      <main style={{ padding: 40 }}>\n        <h2 className="neon">User Profile</h2>\n        <p>Edit your bio, avatar, and info here.</p>\n      </main>\n    <>\n  );\n}

@@ -1,0 +1,1 @@
+import Header from '../components/Header';\n\nexport default function Analytics() {\n  // Add analytics logic here, e.g., charts\n  return (\n    <>\n      <Header />\n      <main style={{ padding: 40 }}>\n        <h2 className="neon">Analytics</h2>\n        <p>View user and content stats here.</p>\n      </main>\n    <>\n  );\n}

@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';\n\nconst ContentSchema = new mongoose.Schema({\n  title: String,\n  body: String,\n  author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },\n}, { timestamps: true });\n\nexport default mongoose.models.Content || mongoose.model('Content', ContentSchema);
